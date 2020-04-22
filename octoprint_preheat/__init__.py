@@ -35,8 +35,8 @@ class PreheatAPIPlugin(octoprint.plugin.TemplatePlugin,
 					on_start_send_gcode = False,
 					on_start_send_gcode_command = "M117 Preheating... ; Update LCD",
 					on_complete_show_popup = False,
-					on_conplete_send_gcode = False,
-					on_conplete_send_gcode_command = "M117 Preheat complete. ; Update LCD\nM300 S660 P200 ; Beep",
+					on_complete_send_gcode = False,
+					on_complete_send_gcode_command = "M117 Preheat complete. ; Update LCD\nM300 S660 P200 ; Beep",
 					use_fallback_when_no_file_selected = False
 		)
 
